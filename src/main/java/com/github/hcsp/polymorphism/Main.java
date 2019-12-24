@@ -6,7 +6,8 @@ public class Main {
     // "I am Sub, the param is ParamSub"
     public static void main(String[] args) {
         Base object = new Sub();
-        ParamBase param = new ParamSub();
+        ParamSub param = new ParamSub();
+        //方法的重载可以根据具体的对象选择，（方法重载）参数选择选择最接近他本身的不需要转换就能得到的类型（静态发生）
         object.print(param);
     }
 }
