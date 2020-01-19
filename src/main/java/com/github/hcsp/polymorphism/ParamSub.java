@@ -1,3 +1,3 @@
 package com.github.hcsp.polymorphism;
 
-public class ParamSub  {}
+public class ParamSub  extends ParamBase{}
