@@ -6,7 +6,8 @@ public class Main {
     // "I am Sub, the param is ParamSub"
     public static void main(String[] args) {
         Base object = new Sub();
-        ParamBase param = new ParamSub();
-        object.print(param);
+//        ParamBase param = new ParamSub();
+        ParamSub paramSub = new ParamSub();
+        object.print(paramSub);
     }
 }
