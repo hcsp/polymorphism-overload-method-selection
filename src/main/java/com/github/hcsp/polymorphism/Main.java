@@ -6,7 +6,10 @@ public class Main {
     // "I am Sub, the param is ParamSub"
     public static void main(String[] args) {
         Base object = new Sub();
-        ParamBase param = new ParamSub();
+        ParamSub param = new ParamSub();
+        //参数静态绑定，接受者动态绑定
         object.print(param);
+        //消息的接受者是子类类型Sub，故先调用子类Sub的print()方法
+        //print()方法的参数在编译期间静态绑定
     }
 }
