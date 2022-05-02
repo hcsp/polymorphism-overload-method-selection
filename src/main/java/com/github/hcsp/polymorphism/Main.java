@@ -5,8 +5,8 @@ public class Main {
     // 请修改下面的代码，使之输出
     // "I am Sub, the param is ParamSub"
     public static void main(String[] args) {
-        Base object = new Sub();
-        ParamBase param = new ParamSub();
+        Sub object = new Sub();
+        ParamSub param = new ParamSub();
         object.print(param);
     }
 }
