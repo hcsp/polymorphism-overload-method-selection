@@ -10,4 +10,5 @@ public class Sub extends Base {
     public void print(ParamSub param) {
         System.out.println("I am Sub, the param is ParamSub");
     }
+    public void println(){}
 }
